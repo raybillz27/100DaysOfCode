@@ -9,9 +9,9 @@ names = names_string.split(", ")
 #Write your code below this line 👇
 import random
 
-len(names)
+lengt_of_list = len(names)
 
-rand_int = random.randint(1,4)
+rand_int = random.randint(0, lengt_of_list -1)
 payee = names[rand_int]
 print(f"{payee} will buy the meal for today")
 
