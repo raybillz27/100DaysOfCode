@@ -13,7 +13,7 @@ step_1 = total_bill * percentage_tip // 100
 step_2 = int(total_bill) + int(step_1)
 step_3 = (step_2) / int(bill_split)
 step_4 = round(step_3, 2)
-finale = "{:.2f}".format(step_3) 
-print(f"each person should pay: ${finale}")
+final = "{:.2f}".format(step_3) 
+print(f"each person should pay: ${final}")
 
 
