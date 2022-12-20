@@ -13,4 +13,3 @@ for number in range(1,101):
       total2 += number  
 print(total2)
 
-36985028
