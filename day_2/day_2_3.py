@@ -13,4 +13,3 @@ month = (add * 12)
 
 print(f"you have {day} days, {week} and {month} left.")
 
-#

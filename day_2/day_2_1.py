@@ -1,13 +1,18 @@
-# 🚨 Don't change the code below 👇
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
-# 🚨 Don't change the code above 👆
+# body mass index calculator
 
-#Write your code below this line 👇
-#convert to int and float
-BMI = int(weight) / float(height) ** 2
+height = input("what is your height in M:\n")
+weight = input("what is your weight in kg:\n")
 
-print(int(BMI))
+height_weight = int(weight) / float(height) ** 2
+finale = round(height_weight, 2)
+
+
+
+BMI = print(f"your BMI is {finale}")
+
+
+
+
 
 
 

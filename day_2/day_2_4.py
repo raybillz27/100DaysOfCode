@@ -14,6 +14,6 @@ step_2 = int(total_bill) + int(step_1)
 step_3 = (step_2) / int(bill_split)
 step_4 = round(step_3, 2)
 final = "{:.2f}".format(step_3) 
-print(f"each person should pay: ${final}")
+print(f"each person should pay: ${step_4}")
 
 
