@@ -1,8 +1,8 @@
 # Import the random module here
 
 # Split string method
-names_string = input("Give me everybody's names, separated by a comma.\n ")
-names = names_string.split(", ")
+names_list = input("Give me everybody's names, separated by a comma.\n ")
+names = names_list.split()
 # 🚨 Don't change the code above 👆
 
 # Write your code below this line 👇

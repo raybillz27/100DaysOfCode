@@ -1,14 +1,9 @@
-# Write your code below this row 👇
-total = 0
-for number in range(2, 101, 2):
-    total += number
-
-print(total)
-
-
-# or you can also
-total2 = 0
-for number in range(2004, 2023):
-    if number % 2 == 0:
-        total2 += number
-print(total2)
+for number in range(1, 101):
+    if number % 3 == 0 and number % 5 == 0:
+        print("fizz buzz")
+    elif number % 3 == 0:
+        print("fizz")
+    elif number % 5 == 0:
+        print("buzz")
+    else:
+        print(number)
