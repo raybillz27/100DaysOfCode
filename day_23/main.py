@@ -3,8 +3,8 @@ from tkinter import *
 
 window = Tk()
 window.title("Mile to Km converter")
-window.minsize(width=300, height=200)
-window.config(padx=20, pady=50)
+# window.minsize(width=300, height=200)
+window.config(padx=20, pady=20)
 
 label_1 = Label(text="is equal to", font=("times new roman", 16, "bold"))
 label_1.grid(column=1, row=1)
@@ -19,12 +19,12 @@ label_4.grid(column=3, row=1)
 
 def calculate():
     miles = input_entry.get()
-    km = int(miles) * 1.609344
-    round_km = round(km)
+    km = float(miles) * 1.609344
+    round_km = round(km, 2)
     label_2.config(text=round_km)
 
 
-input_entry = Entry(width=15)
+input_entry = Entry(width=7)
 input_entry.focus()
 input_entry.grid(column=2, row=0)
 
