@@ -3,7 +3,6 @@ from tkinter import *
 
 window = Tk()
 window.title("Mile to Km converter")
-# window.minsize(width=300, height=200)
 window.config(padx=20, pady=20)
 
 label_1 = Label(text="is equal to", font=("times new roman", 16, "bold"))
