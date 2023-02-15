@@ -7,8 +7,10 @@ window.config(padx=20, pady=20)
 
 label_1 = Label(text="is equal to", font=("times new roman", 16, "bold"))
 label_1.grid(column=1, row=1)
+
 label_2 = Label(text="0",  font=("times new roman", 16, "bold"))
 label_2.grid(column=2, row=1)
+
 label_3 = Label(text="Miles", font=("times new roman", 16, "bold"))
 label_3.grid(column=3, row=0)
 
